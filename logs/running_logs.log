@@ -1,0 +1,363 @@
+[2023-12-27 19:14:45,752: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:14:45,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:14:45,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:14:45,777: INFO: common: created directory at: artifacts]
+[2023-12-27 19:14:45,777: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:14:45,777: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SAqpoO8_Xy74k04sIRSe3mpXr99zogPx/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:14:50,640: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SAqpoO8_Xy74k04sIRSe3mpXr99zogPx/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:14:50,714: ERROR: main: Bad magic number for file header]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.extract_zip_file()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\data_ingestion.py", line 46, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1628, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1681, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1500, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+[2023-12-27 19:21:48,110: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:21:48,110: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:21:48,110: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:21:48,110: INFO: common: created directory at: artifacts]
+[2023-12-27 19:21:48,124: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:21:48,127: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1SAqpoO8_Xy74k04sIRSe3mpXr99zogPx/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:21:51,656: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1SAqpoO8_Xy74k04sIRSe3mpXr99zogPx/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:21:51,717: ERROR: main: Bad magic number for file header]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.extract_zip_file()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\data_ingestion.py", line 46, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1628, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1681, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1500, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+[2023-12-27 19:31:06,580: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:31:06,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:31:06,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:31:06,600: INFO: common: created directory at: artifacts]
+[2023-12-27 19:31:06,602: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:31:06,602: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:31:14,237: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:31:14,295: ERROR: main: Bad magic number for file header]
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.extract_zip_file()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\data_ingestion.py", line 46, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1628, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1681, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\zipfile.py", line 1500, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+[2023-12-27 19:33:49,551: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:33:49,551: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:33:49,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:33:49,551: INFO: common: created directory at: artifacts]
+[2023-12-27 19:33:49,566: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:33:49,566: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:33:54,542: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:33:54,550: ERROR: main: 'DataIngestion' object has no attribute 'extract_zip_file']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.extract_zip_file()
+AttributeError: 'DataIngestion' object has no attribute 'extract_zip_file'
+[2023-12-27 19:34:59,268: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:34:59,270: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:34:59,270: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:34:59,270: INFO: common: created directory at: artifacts]
+[2023-12-27 19:34:59,277: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:34:59,277: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:35:05,380: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:35:05,380: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-27 19:35:05,380: INFO: main: *******************]
+[2023-12-27 19:35:05,388: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-27 19:35:05,391: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:35:05,401: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:35:05,401: INFO: common: created directory at: artifacts]
+[2023-12-27 19:35:05,401: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-27 19:35:11,797: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-27 19:35:12,121: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-27 19:35:12,121: INFO: main: *******************]
+[2023-12-27 19:35:12,121: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-27 19:35:12,121: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:35:12,129: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:35:12,131: INFO: common: created directory at: artifacts]
+[2023-12-27 19:35:12,135: INFO: common: created directory at: artifacts\training]
+[2023-12-27 19:35:12,800: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    model_trainer.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 20, in main
+    training.train_valid_generator()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 37, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2023-12-27 19:38:29,999: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:38:29,999: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:38:29,999: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:38:29,999: INFO: common: created directory at: artifacts]
+[2023-12-27 19:38:30,007: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:38:30,007: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:38:35,729: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:38:35,729: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-27 19:38:35,729: INFO: main: *******************]
+[2023-12-27 19:38:35,729: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-27 19:38:35,741: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:38:35,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:38:35,741: INFO: common: created directory at: artifacts]
+[2023-12-27 19:38:35,741: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-27 19:38:36,554: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-27 19:38:36,906: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-27 19:38:36,906: INFO: main: *******************]
+[2023-12-27 19:38:36,906: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-27 19:38:36,906: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:38:36,906: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:38:36,906: INFO: common: created directory at: artifacts]
+[2023-12-27 19:38:36,906: INFO: common: created directory at: artifacts\training]
+[2023-12-27 19:38:45,169: ERROR: main: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 42, in <module>
+      model_trainer.main()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+      self.model.fit(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,4]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1463]]
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    model_trainer.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+    training.train()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+    self.model.fit(
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\tensorflow\python\eager\execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 42, in <module>
+      model_trainer.main()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+      self.model.fit(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,4]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1463]
+[2023-12-27 19:42:13,674: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:42:13,680: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:42:13,682: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:42:13,683: INFO: common: created directory at: artifacts]
+[2023-12-27 19:42:13,684: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:42:13,685: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:42:18,748: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:42:18,749: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-27 19:42:18,750: INFO: main: *******************]
+[2023-12-27 19:42:18,750: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-27 19:42:18,754: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:42:18,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:42:18,757: INFO: common: created directory at: artifacts]
+[2023-12-27 19:42:18,758: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-27 19:42:19,567: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-27 19:42:19,915: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-27 19:42:19,916: INFO: main: *******************]
+[2023-12-27 19:42:19,917: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-27 19:42:19,920: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:42:19,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:42:19,923: INFO: common: created directory at: artifacts]
+[2023-12-27 19:42:19,924: INFO: common: created directory at: artifacts\training]
+[2023-12-27 19:42:32,088: ERROR: main: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 42, in <module>
+      model_trainer.main()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+      self.model.fit(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,4]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1463]]
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    model_trainer.main()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+    training.train()
+  File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+    self.model.fit(
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\tensorflow\python\eager\execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 42, in <module>
+      model_trainer.main()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "D:\ML_projects\KidneyTumorClassifier\src\KidneyTumorClassifier\components\model_training.py", line 76, in train
+      self.model.fit(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\mis\anaconda3\envs\kidney\lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,4]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1463]
+[2023-12-27 19:48:24,253: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 19:48:24,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:48:24,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:48:24,274: INFO: common: created directory at: artifacts]
+[2023-12-27 19:48:24,274: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 19:48:24,279: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:48:31,972: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19hhSSbnIcUFkaJU3jTc6ncftSBuZ5KT5/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-12-27 19:48:31,972: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-27 19:48:31,972: INFO: main: *******************]
+[2023-12-27 19:48:31,972: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-27 19:48:31,972: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:48:31,980: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:48:31,980: INFO: common: created directory at: artifacts]
+[2023-12-27 19:48:31,980: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-27 19:48:32,708: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-27 19:48:33,099: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-27 19:48:33,099: INFO: main: *******************]
+[2023-12-27 19:48:33,099: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-27 19:48:33,099: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-27 19:48:33,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 19:48:33,111: INFO: common: created directory at: artifacts]
+[2023-12-27 19:48:33,111: INFO: common: created directory at: artifacts\training]
