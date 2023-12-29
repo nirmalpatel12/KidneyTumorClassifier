@@ -1,6 +1,6 @@
-from KidneyTumorClassifier.config.configuration import ConfigurationManager
-from KidneyTumorClassifier.components.prepare_base_model import PrepareBaseModel
-from KidneyTumorClassifier import logger
+from src.KidneyTumorClassifier.config.configuration import ConfigurationManager
+from src.KidneyTumorClassifier.components.prepare_base_model import PrepareBaseModel
+from src.KidneyTumorClassifier import logger
 
 
 STAGE_NAME = "Prepare base model"

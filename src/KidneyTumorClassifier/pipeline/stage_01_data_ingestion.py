@@ -1,8 +1,8 @@
 import sys
-sys.path.append('D:\\ML_projects\\KidneyTumorClassifier\\src')
-from KidneyTumorClassifier.config.configuration import ConfigurationManager
-from KidneyTumorClassifier.components.data_ingestion import DataIngestion
-from KidneyTumorClassifier import logger
+
+from src.KidneyTumorClassifier.config.configuration import ConfigurationManager
+from src.KidneyTumorClassifier.components.data_ingestion import DataIngestion
+from src.KidneyTumorClassifier import logger
 
 STAGE_NAME = "Data Ingestion stage"
 

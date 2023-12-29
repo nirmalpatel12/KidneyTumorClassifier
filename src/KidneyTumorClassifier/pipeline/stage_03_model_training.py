@@ -1,6 +1,6 @@
-from KidneyTumorClassifier.config.configuration import ConfigurationManager
-from KidneyTumorClassifier.components.model_training import Training
-from KidneyTumorClassifier import logger
+from src.KidneyTumorClassifier.config.configuration import ConfigurationManager
+from src.KidneyTumorClassifier.components.model_training import Training
+from src.KidneyTumorClassifier import logger
 
 
 

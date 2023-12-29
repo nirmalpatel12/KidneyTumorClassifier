@@ -1,9 +1,9 @@
 import os
 import zipfile
 import gdown
-from KidneyTumorClassifier import logger
-from KidneyTumorClassifier.utils.common import get_size
-from KidneyTumorClassifier.entity.config_entity import (DataIngestionConfig)
+from src.KidneyTumorClassifier import logger
+from src.KidneyTumorClassifier.utils.common import get_size
+from src.KidneyTumorClassifier.entity.config_entity import (DataIngestionConfig)
 
 
 

@@ -1,8 +1,8 @@
-from KidneyTumorClassifier.constants import *
+from src.KidneyTumorClassifier.constants import *
 import os
 from pathlib import Path 
-from KidneyTumorClassifier.utils.common import read_yaml, create_directories,save_json
-from KidneyTumorClassifier.entity.config_entity import (DataIngestionConfig,
+from src.KidneyTumorClassifier.utils.common import read_yaml, create_directories,save_json
+from src.KidneyTumorClassifier.entity.config_entity import (DataIngestionConfig,
                                                 PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
